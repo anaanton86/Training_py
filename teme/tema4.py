@@ -295,7 +295,7 @@ print(alte_numere)
 #             interim = numere[a]
 #             numere[a] = numere[b]
 #             numere[b] = interim
-# print(f" Ordinea este {numere}")
+# print(f" Ordinea  este {numere}")
 
 print("-----------------------------------------------")
 
@@ -338,7 +338,6 @@ piramida = int(input("alege un nr:"))
 i = 1
 for i in range(piramida+1):
     print(f"{i}" * i)
-
 print("-----------------------------------------------")
 
 # 15.tastatura_telefon = [
@@ -349,4 +348,17 @@ print("-----------------------------------------------")
 # ]
 # Iterati prin lista 2d. Printati ‘Cifra curenta este x’
 # (hint: nested for - adica for in for)
+
+tastatura_telefon = [
+   [1, 2, 3],
+   [4, 5, 6],
+   [7, 8, 9],
+   [0]
+ ]
+numere = []
+for n in tastatura_telefon:
+    for item in n:
+        numere.append(item)
+for i in numere:
+    print(f"cifra curenta este {i}")
 

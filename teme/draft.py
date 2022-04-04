@@ -6,9 +6,11 @@ model = 'XC60'
 print (f'Am cumparat o masina marca: {marca}')
 print (f'Este modelul: {model}')
 
+# draft incercari
+
 class Cerc:
-    raza=1
-    color=None
+    raza= 1
+    color= "mov"
     def __init__(self, raza, color):
         self.raza = raza
         self.color = color
@@ -17,3 +19,4 @@ class Cerc:
 
 cerc_1 = Cerc(8,'alb')
 print(cerc_1.descriere_cerc())
+cerc_1.descriere_cerc()
