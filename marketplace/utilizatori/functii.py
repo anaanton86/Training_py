@@ -51,7 +51,6 @@ def adauga_un_utilizator():
     }
     scrie_datele_in_baza_de_date(datele_noastre)
 
-
 def listeaza_toti_utilizatorii():
     """
     Functia trebuie sa afiseze toti utilizatorii prezenti in baza de date.

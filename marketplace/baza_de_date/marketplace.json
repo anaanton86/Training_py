@@ -11,6 +11,45 @@
       "data_inregistrare": "2022-04-04T17:18:36.806411+03:00"
     }
   },
-  "produse": {},
-  "comenzi": {}
+  "produse": {
+    "7644eee1d59e201eea979c5b0059d066": {
+      "nume": "mere",
+      "pret": 31.5,
+      "data_inregistrare": "2022-04-27T12:39:46.886637+03:00"
+    },
+    "1066eb3c0ec7888b6ce8030bab50ec3f": {
+      "nume": "avocado",
+      "pret": 35.0,
+      "data_inregistrare": "2022-04-27T12:43:07.489059+03:00"
+    }
+  },
+  "comenzi": {
+    "df34b01a0ede0ead060d4b4679073aeb": {
+      "id_comanda": "df34b01a0ede0ead060d4b4679073aeb",
+      "detalii_comanda": [
+        {
+          "pahare": 2.0
+        }
+      ],
+      "data_inregistrare": "2022-04-27T15:34:21.749538+03:00"
+    },
+    "d8ffbc489e289ced6a9ab97f612949ee": {
+      "id_comanda": "d8ffbc489e289ced6a9ab97f6149ee",
+      "detalii_comanda": [
+        {
+          "farfurii": 4.0
+        }
+      ],
+      "data_inregistrare": "2022-04-27T15:34:37.886946+03:00"
+    },
+    "abe0ba67f6e0dad4f97343de1ab85a69": {
+      "id_comanda": "abe0ba67f6e0dad4f97343de1ab85a69",
+      "detalii_comanda": [
+        {
+          "cani": 3.0
+        }
+      ],
+      "data_inregistrare": "2022-05-09T08:56:37.259965+03:00"
+    }
+  }
 }

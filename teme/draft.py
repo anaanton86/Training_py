@@ -1,7 +1,8 @@
-# variabile
 import json
 import os
+from pathlib import Path
 
+# variabile
 marca = 'Volvo'
 model = 'XC60'
 
@@ -54,7 +55,7 @@ print("---------------------------")
 # with open("path_to_csv.csv", "r") as read_csv:
 #     csv.reader(read_csv)
 #
-# if __name__ == '__main__':
+# if __name__ == '__main__':      ## best practice
 #     calea_curenta_de_pe_disc = os.getcwd()
 #     calea_catre_fisierul_json = Path(calea_curenta_de_pe_disc, "test.json")
 #     print(citeste_din_fisier_json(calea_catre_fisierul_json))
